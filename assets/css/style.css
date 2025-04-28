@@ -62,8 +62,8 @@ a{
 .header{
     display: flex;
     flex-direction: column;
+    justify-content: center;    
     background: #E6F0FF;
-    height: 736px;
     position: relative;
     height: calc(100vh - 90px);
 }
@@ -103,9 +103,6 @@ a{
     border-radius: 8px;
 }
 
-.hero{
-    margin-top: 130px;
-}
 
 .hero .info{
     width: 49%;
